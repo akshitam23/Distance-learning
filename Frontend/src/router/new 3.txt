@@ -1,0 +1,18 @@
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+	    int d=280;
+	    int q=3;
+	    int c=0;
+	    int m=d-q;
+	    while(m>=0)
+	    {
+	        c++;
+	        m=m-q;
+	       
+	        
+	    }
+		System.out.println(c);
+	}
+}
